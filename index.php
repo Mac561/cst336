@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html><body>
 <?php
 // A simple web site in Cloud9 that runs through Apache
