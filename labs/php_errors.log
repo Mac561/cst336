@@ -1,3 +1,66 @@
 [10-Sep-2018 21:42:37 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 10
 [10-Sep-2018 21:42:39 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 10
 [10-Sep-2018 22:15:31 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 38
+[17-Sep-2018 21:24:50 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:24:50 UTC] PHP Stack trace:
+[17-Sep-2018 21:24:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:24:50 UTC] PHP   2. print_r() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:24:51 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:24:51 UTC] PHP Stack trace:
+[17-Sep-2018 21:24:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:24:51 UTC] PHP   2. print_r() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:26:46 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:26:46 UTC] PHP Stack trace:
+[17-Sep-2018 21:26:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:26:46 UTC] PHP   2. print_r() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:28:00 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:28:00 UTC] PHP Stack trace:
+[17-Sep-2018 21:28:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:28:00 UTC] PHP   2. print_r() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:28:01 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:28:01 UTC] PHP Stack trace:
+[17-Sep-2018 21:28:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:28:01 UTC] PHP   2. print_r() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:31:07 UTC] PHP Parse error:  syntax error, unexpected 'i' (T_STRING), expecting ';' in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 8
+[17-Sep-2018 21:40:07 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 7
+[17-Sep-2018 21:40:07 UTC] PHP Stack trace:
+[17-Sep-2018 21:40:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:40:07 UTC] PHP   2. displayarray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:22
+[17-Sep-2018 22:09:11 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 34
+[17-Sep-2018 22:09:12 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 34
+[18-Sep-2018 03:45:57 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 12
+[18-Sep-2018 03:45:57 UTC] PHP Stack trace:
+[18-Sep-2018 03:45:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[18-Sep-2018 03:47:59 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 12
+[18-Sep-2018 03:47:59 UTC] PHP Stack trace:
+[18-Sep-2018 03:47:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[18-Sep-2018 03:48:01 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 12
+[18-Sep-2018 03:48:01 UTC] PHP Stack trace:
+[18-Sep-2018 03:48:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[18-Sep-2018 03:48:14 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 12
+[18-Sep-2018 03:48:14 UTC] PHP Stack trace:
+[18-Sep-2018 03:48:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[18-Sep-2018 03:48:16 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 12
+[18-Sep-2018 03:48:16 UTC] PHP Stack trace:
+[18-Sep-2018 03:48:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[18-Sep-2018 03:48:25 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 12
+[18-Sep-2018 03:48:25 UTC] PHP Stack trace:
+[18-Sep-2018 03:48:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[18-Sep-2018 03:53:38 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 3
+[18-Sep-2018 03:53:38 UTC] PHP Stack trace:
+[18-Sep-2018 03:53:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[18-Sep-2018 03:53:38 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 3
+[18-Sep-2018 03:53:38 UTC] PHP Stack trace:
+[18-Sep-2018 03:53:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[18-Sep-2018 03:53:38 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 18
+[18-Sep-2018 03:53:38 UTC] PHP Stack trace:
+[18-Sep-2018 03:53:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[18-Sep-2018 03:56:53 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 3
+[18-Sep-2018 03:56:53 UTC] PHP Stack trace:
+[18-Sep-2018 03:56:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[18-Sep-2018 03:56:53 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 3
+[18-Sep-2018 03:56:53 UTC] PHP Stack trace:
+[18-Sep-2018 03:56:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[18-Sep-2018 03:56:53 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 18
+[18-Sep-2018 03:56:53 UTC] PHP Stack trace:
+[18-Sep-2018 03:56:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
