@@ -49,12 +49,12 @@
                                 </audio>";
                         //   echo "<audio src='jps/bcs.mp3' hidden= 'true' autostart= 'true' loops= 'true' />";
                         break;
-                    case 2:$totalPoints = 900;
+                    case 1:$totalPoints = 900;
                     //   echo "<audio controls autoplay>
                     //          <source src='jps/bcs.mp3' type='audio/ogg'>
                     //         Your browser does not support the audio element.
                     //         </audio>"; break;
-                    case 3:$totalPoints = 250;
+                    case 2:$totalPoints = 250;
                     //   echo "<audio controls autoplay>
                     //         <source src='jps/bcs.mp3' type='audio/ogg'>
                     //         Your browser does not support the audio element.
