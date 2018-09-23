@@ -18,7 +18,7 @@
             play();
         ?>
         <form>
-            <input type="submit" value="Spain!"/>
+            <input type="submit" value="Spin!"/>
         </form>
         
         </div>
