@@ -1,0 +1,121 @@
+[25-Sep-2018 20:28:58 UTC] PHP Warning:  include(hw2/function.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:28:58 UTC] PHP Stack trace:
+[25-Sep-2018 20:28:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:28:58 UTC] PHP Warning:  include(): Failed opening 'hw2/function.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:28:58 UTC] PHP Stack trace:
+[25-Sep-2018 20:28:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:31:02 UTC] PHP Warning:  include(hw2/functionsp.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:31:02 UTC] PHP Stack trace:
+[25-Sep-2018 20:31:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:31:02 UTC] PHP Warning:  include(): Failed opening 'hw2/functionsp.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:31:02 UTC] PHP Stack trace:
+[25-Sep-2018 20:31:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:31:03 UTC] PHP Warning:  include(hw2/functionsp.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:31:03 UTC] PHP Stack trace:
+[25-Sep-2018 20:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:31:03 UTC] PHP Warning:  include(): Failed opening 'hw2/functionsp.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:31:03 UTC] PHP Stack trace:
+[25-Sep-2018 20:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:31:05 UTC] PHP Warning:  include(hw2/functionsp.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:31:05 UTC] PHP Stack trace:
+[25-Sep-2018 20:31:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:31:05 UTC] PHP Warning:  include(): Failed opening 'hw2/functionsp.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:31:05 UTC] PHP Stack trace:
+[25-Sep-2018 20:31:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:31:07 UTC] PHP Warning:  include(hw2/functionsp.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:31:07 UTC] PHP Stack trace:
+[25-Sep-2018 20:31:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:31:07 UTC] PHP Warning:  include(): Failed opening 'hw2/functionsp.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:31:07 UTC] PHP Stack trace:
+[25-Sep-2018 20:31:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:31:15 UTC] PHP Warning:  include(hw2/functionsp.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:31:15 UTC] PHP Stack trace:
+[25-Sep-2018 20:31:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:31:15 UTC] PHP Warning:  include(): Failed opening 'hw2/functionsp.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:31:15 UTC] PHP Stack trace:
+[25-Sep-2018 20:31:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:31:15 UTC] PHP Warning:  include(hw2/functionsp.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:31:15 UTC] PHP Stack trace:
+[25-Sep-2018 20:31:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:31:15 UTC] PHP Warning:  include(): Failed opening 'hw2/functionsp.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:31:15 UTC] PHP Stack trace:
+[25-Sep-2018 20:31:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:32:24 UTC] PHP Warning:  include(hw2/functionsp.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:32:24 UTC] PHP Stack trace:
+[25-Sep-2018 20:32:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:32:24 UTC] PHP Warning:  include(): Failed opening 'hw2/functionsp.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:32:24 UTC] PHP Stack trace:
+[25-Sep-2018 20:32:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:32:25 UTC] PHP Warning:  include(hw2/functionsp.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:32:25 UTC] PHP Stack trace:
+[25-Sep-2018 20:32:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:32:25 UTC] PHP Warning:  include(): Failed opening 'hw2/functionsp.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:32:25 UTC] PHP Stack trace:
+[25-Sep-2018 20:32:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:32:26 UTC] PHP Warning:  include(hw2/functionsp.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:32:26 UTC] PHP Stack trace:
+[25-Sep-2018 20:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:32:26 UTC] PHP Warning:  include(): Failed opening 'hw2/functionsp.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:32:26 UTC] PHP Stack trace:
+[25-Sep-2018 20:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:32:26 UTC] PHP Warning:  include(hw2/functionsp.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:32:26 UTC] PHP Stack trace:
+[25-Sep-2018 20:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:32:26 UTC] PHP Warning:  include(): Failed opening 'hw2/functionsp.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:32:26 UTC] PHP Stack trace:
+[25-Sep-2018 20:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:32:26 UTC] PHP Warning:  include(hw2/functionsp.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:32:26 UTC] PHP Stack trace:
+[25-Sep-2018 20:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:32:26 UTC] PHP Warning:  include(): Failed opening 'hw2/functionsp.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:32:26 UTC] PHP Stack trace:
+[25-Sep-2018 20:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:32:26 UTC] PHP Warning:  include(hw2/functionsp.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:32:26 UTC] PHP Stack trace:
+[25-Sep-2018 20:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:32:26 UTC] PHP Warning:  include(): Failed opening 'hw2/functionsp.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:32:26 UTC] PHP Stack trace:
+[25-Sep-2018 20:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:32:27 UTC] PHP Warning:  include(hw2/functionsp.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:32:27 UTC] PHP Stack trace:
+[25-Sep-2018 20:32:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:32:27 UTC] PHP Warning:  include(): Failed opening 'hw2/functionsp.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[25-Sep-2018 20:32:27 UTC] PHP Stack trace:
+[25-Sep-2018 20:32:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:44:10 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/cst336/hw/hw2/functionsp.php on line 9
+[25-Sep-2018 20:44:10 UTC] PHP Stack trace:
+[25-Sep-2018 20:44:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:44:10 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:2
+[25-Sep-2018 20:44:10 UTC] PHP   3. rand() /home/ubuntu/workspace/cst336/hw/hw2/functionsp.php:9
+[25-Sep-2018 20:44:10 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/cst336/hw/hw2/functionsp.php on line 9
+[25-Sep-2018 20:44:10 UTC] PHP Stack trace:
+[25-Sep-2018 20:44:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:44:10 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:2
+[25-Sep-2018 20:44:10 UTC] PHP   3. rand() /home/ubuntu/workspace/cst336/hw/hw2/functionsp.php:9
+[25-Sep-2018 20:44:10 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/cst336/hw/hw2/functionsp.php on line 9
+[25-Sep-2018 20:44:10 UTC] PHP Stack trace:
+[25-Sep-2018 20:44:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:44:10 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:2
+[25-Sep-2018 20:44:10 UTC] PHP   3. rand() /home/ubuntu/workspace/cst336/hw/hw2/functionsp.php:9
+[25-Sep-2018 20:44:10 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/cst336/hw/hw2/functionsp.php on line 9
+[25-Sep-2018 20:44:10 UTC] PHP Stack trace:
+[25-Sep-2018 20:44:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 20:44:10 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:2
+[25-Sep-2018 20:44:10 UTC] PHP   3. rand() /home/ubuntu/workspace/cst336/hw/hw2/functionsp.php:9
+[25-Sep-2018 21:59:27 UTC] PHP Warning:  Missing argument 1 for printpic(), called in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 33 and defined in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 20
+[25-Sep-2018 21:59:27 UTC] PHP Stack trace:
+[25-Sep-2018 21:59:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 21:59:27 UTC] PHP   2. printpic() /home/ubuntu/workspace/cst336/hw/hw2/index.php:33
+[25-Sep-2018 21:59:30 UTC] PHP Warning:  Missing argument 1 for printpic(), called in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 33 and defined in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 20
+[25-Sep-2018 21:59:30 UTC] PHP Stack trace:
+[25-Sep-2018 21:59:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[25-Sep-2018 21:59:30 UTC] PHP   2. printpic() /home/ubuntu/workspace/cst336/hw/hw2/index.php:33
+[26-Sep-2018 04:33:19 UTC] PHP Warning:  include(function.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[26-Sep-2018 04:33:19 UTC] PHP Stack trace:
+[26-Sep-2018 04:33:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 04:33:19 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 2
+[26-Sep-2018 04:33:19 UTC] PHP Stack trace:
+[26-Sep-2018 04:33:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[26-Sep-2018 04:33:19 UTC] PHP Fatal error:  Call to undefined function printpic() in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 37
+[26-Sep-2018 04:33:19 UTC] PHP Stack trace:
+[26-Sep-2018 04:33:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
