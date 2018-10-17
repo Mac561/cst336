@@ -1,0 +1,63 @@
+body{
+    background-color:gray;
+    color:#00ffff;
+    text-align: center;
+}
+
+header, main, nav, footer{
+    text-align:center;
+}
+
+#nav a { /*link within "Nav" container*/
+       padding:5px;
+       padding-bottom: 4px;
+       font-size: 1.8em;
+       text-decoration: none; /*remove underline*/
+       color: white;   /*by default, links are blue*/
+       border: 0px solid grey;
+       border-color: #5c5c5b;
+    
+}
+nav a:hover{ /*pseudo class*/
+         border-bottom:2px #00ffff;
+         font-size: 2em;
+         transition:.9s; /*transition effect*/
+    
+}
+
+footer{
+    clear: left;
+}
+
+
+
+
+h1{
+    font-family: 'Merriweather' cursive ;
+    font-size: 4em;
+    margin-bottom: 0px;
+    
+}
+
+#image{
+     width:60%;
+     float: right;
+}
+
+/*#image1{*/
+/*    float: right;*/
+
+
+#t1{
+    font-size: medium;
+    color: black;
+    padding-left: 20px;
+}
+#t2{
+    font-size: medium;
+    color:black;
+}
+
+footer{
+    color: black;
+}

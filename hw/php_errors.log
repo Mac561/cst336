@@ -119,3 +119,40 @@
 [26-Sep-2018 04:33:19 UTC] PHP Fatal error:  Call to undefined function printpic() in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 37
 [26-Sep-2018 04:33:19 UTC] PHP Stack trace:
 [26-Sep-2018 04:33:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[16-Oct-2018 06:51:46 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ',' or ';' in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 6
+[16-Oct-2018 07:00:16 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 4
+[16-Oct-2018 07:00:16 UTC] PHP Stack trace:
+[16-Oct-2018 07:00:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[16-Oct-2018 07:00:16 UTC] PHP   2. posterrores() /home/ubuntu/workspace/cst336/hw/hw3/index.php:56
+[16-Oct-2018 07:01:55 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 4
+[16-Oct-2018 07:01:55 UTC] PHP Stack trace:
+[16-Oct-2018 07:01:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[16-Oct-2018 07:01:55 UTC] PHP   2. posterrores() /home/ubuntu/workspace/cst336/hw/hw3/index.php:56
+[16-Oct-2018 07:01:56 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 4
+[16-Oct-2018 07:01:56 UTC] PHP Stack trace:
+[16-Oct-2018 07:01:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[16-Oct-2018 07:01:56 UTC] PHP   2. posterrores() /home/ubuntu/workspace/cst336/hw/hw3/index.php:56
+[16-Oct-2018 07:01:57 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 4
+[16-Oct-2018 07:01:57 UTC] PHP Stack trace:
+[16-Oct-2018 07:01:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[16-Oct-2018 07:01:57 UTC] PHP   2. posterrores() /home/ubuntu/workspace/cst336/hw/hw3/index.php:56
+[16-Oct-2018 07:02:08 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 4
+[16-Oct-2018 07:02:08 UTC] PHP Stack trace:
+[16-Oct-2018 07:02:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[16-Oct-2018 07:02:08 UTC] PHP   2. posterrores() /home/ubuntu/workspace/cst336/hw/hw3/index.php:56
+[16-Oct-2018 07:02:13 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 4
+[16-Oct-2018 07:02:13 UTC] PHP Stack trace:
+[16-Oct-2018 07:02:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[16-Oct-2018 07:02:13 UTC] PHP   2. posterrores() /home/ubuntu/workspace/cst336/hw/hw3/index.php:56
+[16-Oct-2018 07:04:38 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 4
+[16-Oct-2018 07:04:38 UTC] PHP Stack trace:
+[16-Oct-2018 07:04:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[16-Oct-2018 07:04:38 UTC] PHP   2. posterrores() /home/ubuntu/workspace/cst336/hw/hw3/index.php:56
+[16-Oct-2018 07:05:17 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 4
+[16-Oct-2018 07:05:17 UTC] PHP Stack trace:
+[16-Oct-2018 07:05:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[16-Oct-2018 07:05:17 UTC] PHP   2. posterrores() /home/ubuntu/workspace/cst336/hw/hw3/index.php:56
+[16-Oct-2018 07:08:56 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/hw/hw3/pdata.php on line 2
+[16-Oct-2018 07:08:56 UTC] PHP Stack trace:
+[16-Oct-2018 07:08:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/pdata.php:0
+[16-Oct-2018 20:03:59 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 3
