@@ -110,20 +110,10 @@ echo " Welcome ".$getFirstName["firstName"]. " " .$getLastName["lastName"]  ;
                     
                 }
             }
-            }
+        }
            
             ?>
         </div>
         
-        <!-- <footer>-->
-        <!--    <hr>-->
-        <!--    &copy; 2018 Mac Cooper <br />-->
-        <!--    <strong>Disclaimer</strong> The information in this website is fake. It's use for <strong >CST336</strong> only!-->
-        <!--    <br/>-->
-            
-        <!--    <img src="../../img/CSUMB_logo.png" alt=" this is a image of csumb logo" title="CSUMB LOGO" width="75">-->
-        <!--     <img src="../../img/buddy_verified.png" alt=" and image that show that your buddy look at your work " title="buddy verified" width="75">-->
-        <!--</footer> -->
-          
     </body>
 </html>
