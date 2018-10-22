@@ -12,7 +12,7 @@ function displayCart(){
             //Display data for item
             echo "<td><img src='".$item['img']."'></td>";
             echo "<td><h4>".$item['name']."</h4></td>";
-            echo "<td><h4>".$item['price']."</h4></td>";
+            echo "<td><h4>$".$item['price']."</h4></td>";
             
             //Update form for this item
             echo '<form method="post">';
