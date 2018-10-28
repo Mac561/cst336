@@ -226,3 +226,15 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336/labs/lab6/index.php(84): filterProducts()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336/labs/lab6/index.php on line 51
+[27-Oct-2018 00:15:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'ottermart'' in /home/ubuntu/workspace/cst336/inc/dbConnection.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/inc/dbConnection.php(11): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/labs/lab6/productInfo.php(3): startConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/inc/dbConnection.php on line 11
+[27-Oct-2018 00:25:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'ottermart'' in /home/ubuntu/workspace/cst336/inc/dbConnection.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/inc/dbConnection.php(11): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/labs/lab6/index.php(4): startConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/inc/dbConnection.php on line 11

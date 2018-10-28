@@ -1,0 +1,29 @@
+[24-Oct-2018 21:31:19 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/midterm/index.php on line 3
+[24-Oct-2018 21:31:59 UTC] PHP Fatal error:  Call to undefined function filterProducts() in /home/ubuntu/workspace/cst336/midterm/index.php on line 123
+[24-Oct-2018 21:31:59 UTC] PHP Stack trace:
+[24-Oct-2018 21:31:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[24-Oct-2018 21:32:48 UTC] PHP Fatal error:  Call to undefined function filterProducts() in /home/ubuntu/workspace/cst336/midterm/index.php on line 123
+[24-Oct-2018 21:32:48 UTC] PHP Stack trace:
+[24-Oct-2018 21:32:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[24-Oct-2018 21:34:24 UTC] PHP Fatal error:  Call to undefined function filterProducts() in /home/ubuntu/workspace/cst336/midterm/index.php on line 127
+[24-Oct-2018 21:34:24 UTC] PHP Stack trace:
+[24-Oct-2018 21:34:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[24-Oct-2018 21:34:42 UTC] PHP Fatal error:  Call to undefined function filterProducts() in /home/ubuntu/workspace/cst336/midterm/index.php on line 127
+[24-Oct-2018 21:34:42 UTC] PHP Stack trace:
+[24-Oct-2018 21:34:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/index.php:0
+[24-Oct-2018 21:55:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/midterm/index.php on line 21
+[27-Oct-2018 05:35:24 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/midterm/p2.php on line 3
+[27-Oct-2018 05:35:24 UTC] PHP Stack trace:
+[27-Oct-2018 05:35:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/p2.php:0
+[27-Oct-2018 05:35:24 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/midterm/p2.php on line 3
+[27-Oct-2018 05:35:24 UTC] PHP Stack trace:
+[27-Oct-2018 05:35:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/p2.php:0
+[27-Oct-2018 05:35:24 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/midterm/p2.php on line 4
+[27-Oct-2018 05:35:24 UTC] PHP Stack trace:
+[27-Oct-2018 05:35:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/p2.php:0
+[27-Oct-2018 05:35:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Einstein ORDER BY Z,A desc' at line 1' in /home/ubuntu/workspace/cst336/midterm/p2.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/midterm/p2.php(10): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/midterm/p2.php(59): getAEQuote()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/midterm/p2.php on line 10

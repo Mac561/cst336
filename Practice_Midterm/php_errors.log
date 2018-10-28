@@ -1,0 +1,48 @@
+[22-Oct-2018 20:28:04 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php on line 3
+[22-Oct-2018 20:28:04 UTC] PHP Stack trace:
+[22-Oct-2018 20:28:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php:0
+[22-Oct-2018 20:28:04 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php on line 3
+[22-Oct-2018 20:28:04 UTC] PHP Stack trace:
+[22-Oct-2018 20:28:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php:0
+[22-Oct-2018 20:28:04 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php on line 4
+[22-Oct-2018 20:28:04 UTC] PHP Stack trace:
+[22-Oct-2018 20:28:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php:0
+[22-Oct-2018 20:28:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''mp_town' 
+    WHERE population > 
+    50000 AND population < 80000' at line 1' in /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php(22): getTownName()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php on line 13
+[22-Oct-2018 20:30:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''mp_town' 
+    WHERE population > 
+    50000 AND population < 80000' at line 1' in /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php(22): getTownName()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php on line 13
+[22-Oct-2018 20:43:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php on line 29
+[22-Oct-2018 20:43:01 UTC] PHP Stack trace:
+[22-Oct-2018 20:43:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php:0
+[22-Oct-2018 20:43:01 UTC] PHP   2. orderPopulaion() /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php:42
+[22-Oct-2018 20:57:54 UTC] PHP Fatal error:  Cannot redeclare orderLimit() (previously declared in /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php:36) in /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php on line 65
+[22-Oct-2018 21:02:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'midterm.mp_country' doesn't exist' in /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php(57): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php(82): nameStartWithS()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php on line 57
+[22-Oct-2018 21:05:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'country_name' in 'where clause'' in /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php(57): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php(82): nameStartWithS()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php on line 57
+[22-Oct-2018 21:05:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'country_name' in 'where clause'' in /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php(57): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php(82): nameStartWithS()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Midterm/Pm2/midterm_practice2.php on line 57

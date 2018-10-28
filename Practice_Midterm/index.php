@@ -9,7 +9,7 @@ function posterrors(){
     return true;
 }
 
-if(!empty($_GET['Months'])){
+if(empty($_GET['Months'])){
     $getMonth =$_GET['Months'];
     echo $getMonth."Itinerary";
 }
@@ -33,7 +33,7 @@ if(isset($_GET['Number']) && isset($_GET['Countries'])){
         </style>
     </head>
     <body>
-
+<h1> Winter Vacation Planner!</h1>
 <form method="GET">
     
     <div>
@@ -46,6 +46,7 @@ if(isset($_GET['Number']) && isset($_GET['Countries'])){
             <option value="February">February</option>
         </select>
     </div>
+    </form>
     <br/>
     <div name="Number">
         Number of location: 
@@ -73,6 +74,5 @@ if(isset($_GET['Number']) && isset($_GET['Countries'])){
         <input type="submit" name="button" value="Creat Itinerary"/>
     </div>
     
-</form>
     </body>
 </html>
