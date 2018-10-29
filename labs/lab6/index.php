@@ -29,10 +29,10 @@ function filterProducts() {
     //This SQL works but it doesn't prevent SQL INJECTION (due to the single quotes)
     //$sql = "SELECT * FROM om_product
     //        WHERE productName LIKE '%$product%'";
-  
-    $sql = "SELECT * FROM om_product WHERE 1"; //Gettting all records from database
+  if(isset($_GET['submit'])){
+      $sql = "SELECT * FROM om_product WHERE 1"; //Gettting all records from database
     
-    if (empty($product)){
+    if (!empty($product)){
         //This SQL prevents SQL INJECTION by using a named parameter
          $sql .=  " AND productName LIKE :product";
          $namedParameters[':product'] = "%$product%";
@@ -74,6 +74,8 @@ function filterProducts() {
         
     }
 
+  }
+    
 
 }
 

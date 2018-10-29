@@ -36,7 +36,6 @@ function displayProductInfo(){
     echo "</table>";
     
     //print_r($records);
-    
 }
 
 
