@@ -271,3 +271,9 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php(5): startConnection('ottermart')
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336/inc/dbConnection.php on line 11
+[31-Oct-2018 21:24:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'ottermart'' in /home/ubuntu/workspace/cst336/inc/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/inc/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/labs/lab7/admin.php(11): startConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/inc/dbConnection.php on line 19

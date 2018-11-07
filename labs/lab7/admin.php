@@ -8,7 +8,7 @@ if (!isset($_SESSION['adminFullName'])) {
 }
 
 include '../../inc/dbConnection.php';
-$dbConn = startConnection("ottermart");
+$dbConn = startConnection("Ottermart");
 
 include 'inc/functions.php';
 

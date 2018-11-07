@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> javaScript review </title>
+        <script>
+         function g(elementId) {
+                
+                return document.getElementById(elementId);
+            }
+            
+            function doMagic(){
+                //alert("hi");
+               // document.getElementById("catImage").src = "img/now_you_dont.png"
+               g("catImage").src = "img/now_you_dont.png";
+                document.getElementById("message").innerHTML = "<i>...Now you dont't!<i>";
+                document.getElementById("message").style.color = "red";
+                document.getElementById("doMagic").style.display = "none"; //hides button
+                document.getElementById("reappear").style.display = "inline";
+            }
+        </script>
+        
+        <style>
+            #reappear{
+                display:none; /*hides an element*/ 
+            }
+        </style>
+    </head>
+    <body>
+        <img id="catImage" src='img/now_you_see_me.png'/>
+        
+        <h2> Now you see me...</h2>
+        
+        
+            
+            <button id="domagic" onclick="doMagic()"> Do magic: </button>
+            <button id="reappear" onclick="reappear()">Reappeaer!</button>
+    </body>
+</html>
