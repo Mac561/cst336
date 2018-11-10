@@ -3,8 +3,9 @@
     <head>
         <title> Admin Login </title>
     </head>
+     <center>
     <body>
-
+     
         <h1> Ottermart - Admin Login </h1>
         
         <form method="post" action="loginProcess.php">
@@ -14,4 +15,5 @@
         </form>
 
     </body>
+     </center>
 </html>
