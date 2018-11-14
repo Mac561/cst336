@@ -1,0 +1,28 @@
+body{
+	background-color: black;
+}
+
+#gameWindow{
+	position: relative;
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: white;
+	overflow: hidden;
+	cursor:url(crosshair.gif) , crosshair;
+	background-image: url("f.jpg");
+}
+
+.monkey{
+	position:absolute;
+	z-index:10;
+   width: 80px;
+   height:80px;
+   background: url('monkey.png');
+   background-size: 80px 80px;
+   
+   /*-webkit-user-select: none;*/
+   /*-moz-user-select: none;*/
+   /*-ms-user-select:none;*/
+   /*user-select:none;*/
+}
