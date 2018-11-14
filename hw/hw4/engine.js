@@ -14,12 +14,15 @@ function init(){
 function gameloop(){
     var y = parseInt(monkey_01.style.top) -10;
     if(y< -100) placeMonkey();
-    else monkey_01.style.top = y + 'px';
+    else 
+    // monkey_01.style.top = y + 'px'; 
+    $('#monkey_01').css('top', y + 'px');
 }
 
 function placeMonkey(){
     var x = Math.floor(Math.random()*421); // 0 to 420
-    monkey_01.style.left = x + 'px';
+    // monkey_01.style.left = x + 'px';
+    $('#monkey_01').css('left', x + 'px');
     monkey_01.style.top = '350px';
 }
 
