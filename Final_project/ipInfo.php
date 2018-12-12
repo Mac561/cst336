@@ -19,9 +19,9 @@ function getProductInfo($productId) {
     
 }
 
-if (isset($_GET['productId'])) {
+if (isset($_GET['itemId'])) {
 
-  $productInfo = getProductInfo($_GET['productId']);    
+  $productInfo = getProductInfo($_GET['itemId']);    
  // print_r($productInfo);
     
 }

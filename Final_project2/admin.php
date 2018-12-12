@@ -3,10 +3,10 @@ session_start();
 
 
 
-// include '../inc/dbConnection.php';
-// $dbConn = startConnection("Ottermart");
+include '../inc/dbConnection.php';
+$dbConn = startConnection("Ottermart");
 
-include 'functions.php';
+include 'inc/functions.php';
 validateSession();
 
 ?>
@@ -44,9 +44,9 @@ validateSession();
     <center>
     <body>
         
-        <h1> ADMIN SECTION - Final Project </h1>
+        <h1> ADMIN SECTION - OTTERMART </h1>
         
-         <h3>Welcome admin </h3>
+         <h3>Welcome <?= $_SESSION['adminFullName'] ?> </h3>
 
           <form action="addProduct.php">
               <input type="submit" value="Add New Product">

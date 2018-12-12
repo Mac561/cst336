@@ -2,7 +2,7 @@
 session_start();
 
 include '../inc/dbConnection.php';
-$dbConn = startConnection("Final_project");
+$dbConn = startConnection("Ottermart");
 
 $username = $_POST['username'];
 $password = sha1($_POST['password']);
@@ -12,7 +12,7 @@ $password = sha1($_POST['password']);
 //                  WHERE username = '$username' 
 //                  AND  password = '$password'";
                  
-$sql = " SELECT * FROM fp_admin
+$sql = " SELECT * FROM om_admin
                  WHERE username = :username 
                  AND  password = :password ";                 
 $np = array();
