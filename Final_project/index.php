@@ -72,7 +72,7 @@ include 'functions.php';
 
         
     </head>
-    <body>
+   <body id="background1">
         <h2> online Store!!!</h2>
             <ul>
                 <li><a class="active" href="index.php">Home</a></li>
