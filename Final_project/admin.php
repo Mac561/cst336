@@ -15,10 +15,16 @@ validateSession();
 <html>
     <head>
         <title> Admin Main Page </title>
+       
         <style>
-            form {
-                display: inline-block;
-            }
+            /*form {*/
+            /*    display: inline-block;*/
+            /*}*/
+            
+             body {
+    background-color:  #b3b300;
+                 
+             }
         </style>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
         
@@ -61,9 +67,9 @@ validateSession();
         
         
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-  Launch demo modal
-</button>
+<!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">-->
+  <!--Launch demo modal-->
+<!--</button>-->
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

@@ -56,6 +56,8 @@ include 'functions.php';
 <!DOCTYPE html>
 <html>
     <head>
+         
+         
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,9 +66,13 @@ include 'functions.php';
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <title>Final Project </title>
-         
+        <!--<style>-->
+        <!--           @import url("css/style.css");-->
+        <!--</style>-->
+
+        
     </head>
-    <body id="background1">
+    <body>
         <h2> online Store!!!</h2>
             <ul>
                 <li><a class="active" href="index.php">Home</a></li>
@@ -89,14 +95,15 @@ include 'functions.php';
                 <?= displayGenre(); ?>
             </select>
             <br><br>
-            <b>Price:  From: </b> <input type="number" name="priceFrom" size="6" value = '<?php echo ($_GET['priceFrom']) ?  $_GET['priceFrom']  : ''; ?>'/> 
-            <b> To: </b> <input type="number" name="priceTo" size="6" value = '<?php echo ($_GET['priceTo']) ?  $_GET['priceTo']  : ''; ?>'/>
-            <br>
+            <!--<b>Price:  From: </b> <input type="number" name="priceFrom" size="6" value = '<?php /*echo ($_GET['priceFrom']) ?  $_GET['priceFrom']  : ''; */?>'/> -->
+            <!--<b> To: </b> <input type="number" name="priceTo" size="6" value = '<?php /*echo ($_GET['priceTo']) ?  $_GET['priceTo']  : '';*/ ?>'/>-->
+            <!--<br>-->
             <b>Low to High Price</b> <input  type="radio"  name="orderBy" value="LToH" <?php echo ($_GET['orderBy'] == 'LToH') ? 'checked="checked"' : ''; ?>><br>
             <b>High to Low Price</b><input   type="radio"   name="orderBy" value="HToL" <?php echo ($_GET['orderBy'] == 'HToL') ? 'checked="checked"' : ''; ?>><br>
             <b>Alphabetical Order </b><input type="radio" name="orderBy" value="alphabetic" <?php echo ($_GET['orderBy'] == 'alphabetic') ? 'checked="checked"' : ''; ?>>
             <br><br>
-            <input type="submit" name="searchForm" value="SEARCH" id="b1" />
+            <!--<input type="submit" name="searchForm" value="SEARCH" id="b1" />-->
+            <button type="submit" class="btn btn-primary" name="searchForm" >Search</button>
         </form>
         <?php
             if(isset($_GET['searchForm'])){

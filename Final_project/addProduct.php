@@ -47,12 +47,16 @@ if (isset($_GET['addProduct'])) { //checks whether the form was submitted
     echo "New Product was added!";
     
 }
-
+//////////////////////////////////////////////////////
+  
+///////////////////////////////////////////////////////
 ?>
 <!DOCTYPE html>
 <html>
     <head>
+         <!--<meta charset="UTF-8">-->
         <title> Admin Section: Add New Product </title>
+        
     </head>
     <center>
     <body>
@@ -79,8 +83,15 @@ if (isset($_GET['addProduct'])) { //checks whether the form was submitted
               ?>
            </select></br><br>
            Set Image Url: <input type="text" name="productImage"></br><br>
-           <input type="submit" name="addProduct" value="Add Product">
+           <input type="submit" name="addProduct" value="Add Product"><br>
         </form>
+        
+        <div>
+         <form action="admin.php">
+            <input type="submit" name="button" value="Admin page!">
+        </form>
+    
+    </div>
 
     </body>
     </center>
