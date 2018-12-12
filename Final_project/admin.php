@@ -59,7 +59,21 @@ validateSession();
           </form>
          <form action="logout.php">
               <input type="submit" value="Logout">
+              
+              <div id = "totalamount">
+
+         </div>
+         <br><input id = "Fetchtotalamount" type = "button" value = "Fetch Total amount">
+
+
+
+         <div id = "TotalPrice">
+
+
+         </div>
           </form>
+          
+         
 
            <br><br>
         
@@ -97,6 +111,26 @@ validateSession();
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
         
+        
+        <script>
+   $("document").ready(function(){
+       $("#Fetchtotalamount").click(function() {
+            alert("someone help");
+                   $.ajax({
+                    
+                       url: "totalamount.php",
+                       datatype: "json",
+                       success: function(data, status) {
+                        alert(data);
+                           var obj = JSON.parse(data); // parse our json data into javascript values
+                           $("#totalamount").html(obj.count);
+
+                       }
+                   }); //ajax
+     }); // find avg click
+   }
+   </script>
     </body>
     </center>
 </html>
+

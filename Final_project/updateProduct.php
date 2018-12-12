@@ -36,17 +36,17 @@ if (isset($_GET['updateProduct'])) { //checks whether the form was submitted
     // $sql = "INSERT INTO movies (name, description, image ,price, genre) 
             // VALUES (:name, :genre, :price, :Description, :image);";
             
-    $sql = " UPDATE movies SET name=:name, genre=:genre, price=:price, description=:description, image=:image  WHERE id = $productId";
+    $sql = " UPDATE movies SET  price=:price  WHERE id = $productId";
             // UPDATE `movies` SET `name`=[value-1],`genre`=[value-2],`id`=[value-3],`price`
             // =[value-4],`description`=[value-5],`image`=[value-6] WHERE 1
             // INSERT INTO `movies`(`name`, `genre`, `id`, `price`, `description`, `image`) 
             // VALUES ([value-1],[value-2],[value-3],[value-4],[value-5],[value-6])
     $np = array();
-    $np[":name"] = $productName;
-    $np[":description"] = $description;
-    $np[":image"] = $image;
+    // $np[":name"] = $productName;
+    // $np[":description"] = $description;
+    // $np[":image"] = $image;
     $np[":price"] = $price;
-    $np[":genre"] = $catId;
+    // $np[":genre"] = $catId;
     
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($np);
